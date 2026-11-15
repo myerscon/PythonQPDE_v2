@@ -1,0 +1,31 @@
+{
+    "simulations": [
+        {
+            "file": "problems/test_2T/may22/output_implicit_gamma=1.hdf5",
+            "label": "Implicit Gamma = 1"
+        },
+        {
+            "file": "problems/test_2T/may22/output_implicit_gamma=2.hdf5",
+            "label": "Implicit Gamma = 2"
+        },
+        {
+            "file": "problems/test_2T/may22/output_implicit_gamma=3.hdf5",
+            "label": "Implicit Gamma = 3"
+        },
+        {
+            "file": "problems/test_2T/may22/output_implicit_gamma=4.hdf5",
+            "label": "Implicit Gamma = 4"
+        },
+        {
+            "file": "problems/test_2T/may22/output_implicit_gamma=5.hdf5",
+            "label": "Implicit Gamma = 5"
+        },
+        {
+            "file": "problems/test_2T/may22/output_implicit_gamma=5.6.hdf5",
+            "label": "Implicit Gamma = 5.6"
+        }
+    ],
+    "output_dir": "problems/test_2T/may22/multi_comparison_plots",
+    "title": "Implicit-Method 2T Simulation Comparison",
+    "use_custom": true
+}

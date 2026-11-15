@@ -1,0 +1,67 @@
+# Plotting Solutions Guide
+
+## Basic Usage
+```
+python plot_solutions.py path/to/output.hdf5
+```
+
+## Selecting Plot Types
+
+### Plot only primary times
+```
+python plot_solutions.py path/to/output.hdf5 --plot-type primary
+```
+
+### Plot only custom times
+```
+python plot_solutions.py path/to/output.hdf5 --plot-type custom
+```
+
+### Plot only secondary times
+```
+python plot_solutions.py path/to/output.hdf5 --plot-type secondary
+```
+
+## Filtering Fields
+
+### Plot only field 0
+```
+python plot_solutions.py path/to/output.hdf5 --fields 0
+```
+
+### Plot fields 0 and 1
+```
+python plot_solutions.py path/to/output.hdf5 --fields 0 1
+```
+
+## Time Selection
+
+### Plot specific time indices
+```
+python plot_solutions.py path/to/output.hdf5 --times 0 5 10
+```
+
+## Output Directory
+
+### Specify custom output directory
+```
+python plot_solutions.py path/to/output.hdf5 --output-dir my_plots
+```
+
+## Secondary Plot Options
+
+### Plot specific primary intervals for secondary plots
+```
+python plot_solutions.py path/to/output.hdf5 --plot-type secondary --primary-intervals 0 1
+```
+
+## Verbose Mode
+
+### Print detailed information about the data
+```
+python plot_solutions.py path/to/output.hdf5 --verbose
+```
+or
+```
+python plot_solutions.py path/to/output.hdf5 -v
+```
